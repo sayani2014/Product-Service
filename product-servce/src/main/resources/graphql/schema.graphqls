@@ -1,0 +1,9 @@
+type Query {
+  productById(id: String): Product
+}
+
+type Product {
+  id: String
+  name: String
+  organisation: String
+}
